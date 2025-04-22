@@ -14,9 +14,22 @@ The dataset contains burial and veteran-related data collected from U.S. Nationa
 ## Methods Used
 
 ### Exploratory Data Analysis (EDA)
-- Frequency distributions of variables such as gender, service branch, and service era.
-- Time-based trend analysis for burials by year and location.
+- Time-based trend analysis.
+
+![Age Distribution](AgeDistribution.jpg)
+
+![Birth and Death](BirthandDeath.jpg)
+  
 - Group comparisons using categorical variables.
+
+![Cemeteries](Cemetery.jpg)
+  
+- Naming trends.
+
+![Top 10 Last Names](LastNames.jpg)
+
+![Top 10 First Names](FirstNames.jpg)
+
 
 ### Statistical Analysis
 - Kaplan-Meier Curves for non-parametric group comparisons.
@@ -26,8 +39,13 @@ The dataset contains burial and veteran-related data collected from U.S. Nationa
 - Certain service eras and branches show disproportionate burial counts.
 - Temporal trends reflect historical events and veteran population shifts.
 
+  ![Kaplan-Meier](Kaplan.jpg)
+
 ## Future Work
 - Incorporate geospatial mapping for burial site locations.
+
+![Scatter Plot](CemeteryLocation.jpg)
+  
 - Expand dataset to include additional years or regional breakdowns.
 - Further cleansing of incorrectly inputed data. 
 - Automate statistical reporting for faster insight generation.
